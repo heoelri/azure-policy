@@ -7,9 +7,6 @@ spec:
     spec:
       names:
         kind: K8sAzurePodRequireResources
-        listKind: K8sAzurePodRequireResources
-        plural: k8sazurepodrequireresources
-        singular: k8sazurepodrequireresources
   targets:
     - target: admission.k8s.gatekeeper.sh
       rego: |
